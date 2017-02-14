@@ -1,0 +1,45 @@
+build/
+**/build/
+classes
+
+# Gradle
+.gradle/
+**/.gradle/
+**/.gradletasknamecache
+
+# VIM
+*.swp
+
+# Eclipse
+workbench.xmi
+
+.idea/
+*.iml
+*.ipr
+*.iws
+**/*.iml
+out/
+.classpath
+**/.classpath
+.project
+**/.project
+.settings/
+**/.settings/
+# Ignore OS X Desktop Services store
+.DS_Store
+**/.DS_Store
+.tddium*
+**/*~
+
+# NetBeans
+.nb-gradle/
+.solano*
+
+metastore_db/
+derby.log
+demo/income_prediction/output
+demo/income_prediction/src/main/resources/adult.*
+
+# travis
+thrift-0.9.1.tar.gz
+thrift-0.9.1/
